@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="patil">Lorem ipsum dolor sit amet.</p>
+    <button onclick="patil()">on</button>
+    <img src="assets/" alt="" id="aaba">
+    <button onclick="patil1()">off</button>
+    <script>
+        function patil(){
+            document.getElementById("aaba").src = "assets/img/pic_bulbon.gif";
+        }
+        function patil1(){
+            document.getElementById("aaba").src = "assets/img/pic_bulboff.gif";
+        }
+    </script>
+</body>
+</html>
